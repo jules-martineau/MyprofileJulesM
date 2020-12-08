@@ -1,0 +1,71 @@
+body {
+	background-color: #F7F9FC
+}
+
+h1, h2 {
+	font-family: helvetica
+}
+
+h1 {
+	font-weight: 500;
+	color: #F24A26
+}
+
+h2 {
+	color: orange ;
+	font-size: 24px ;
+	font-weight: 400
+}
+
+a {
+	text-decoration: none;
+	color: 60C3DC
+}
+
+a:hover {
+color: cyan
+}
+
+@media	(max-width: 760px) {
+.container{
+	width: 600px
+}
+}
+
+@media	(max-width: 500px) {
+.container{
+	width: 400px
+}
+}
+
+/* Custom design with class */
+
+.container {
+	width: 600px
+	margin: 40px auto;
+}
+
+.card {
+	text-align: center;
+	background-color: white;
+	padding: 30px ;
+	margin: 30px ;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1) ;
+	border-radius: 6px
+}
+
+.img-circle {
+	border-radius: 50%
+}
+
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px	
+}
+
